@@ -1,0 +1,417 @@
+.workplace_basis{
+    width: 1000px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;    
+    align-items: center; 
+}
+
+.workplace_mid{
+    width: 1000px;
+    margin: 0px;
+    position: relative;
+}
+
+.wall{
+    width: 1000px;
+}
+
+.door{
+    width: 60px;
+    position: absolute;
+    top: 107px;
+    right: 70px;
+}
+
+.table{
+    width: 1000px;
+    height: 125px;
+    position: absolute;
+    top: 325px;
+    left: 0px;
+    z-index: 2; /* 將z-index設為2 */
+}
+
+.drink_machine{
+    height: 120px;
+    position: absolute;
+    bottom: 170px;
+    left: 200px;
+}
+
+.burger_make{
+    height: 140px;
+    position: absolute;
+    bottom: 155px;
+    left: 439px;
+}
+
+.dessert_make{
+    height: 140px;
+    position: absolute;
+    bottom: 145px;
+    left: 700px;
+}
+
+.bill{
+    width: 50px;
+    position: absolute;
+    bottom: 75px;
+    left: 485px;
+    z-index: 5;
+}
+
+.floor{
+    width: 1000px;
+    position: absolute;
+    bottom: -80px;
+    margin: 0px;  
+    display: flex;
+    justify-content: center;    
+    align-items: center;   
+}
+
+.wait_place{
+    width: 200px;
+    height: 100px;
+    margin: 0px;
+    position: relative;
+    /* border用來確定位置用 */
+    border-style: solid;
+    border-width: 2px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;   
+}
+
+/* 人物 */
+
+.me{
+    height: 120px;
+    z-index: 1; /* 將z-index設為1 */
+    position: absolute;
+    left: 450px;
+    bottom: 110px;
+}
+
+.me_info_mid{
+    width: 400px;
+    background-color: white;
+    border-style:outset;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    position: absolute;
+    left: 310px;
+    font-size: 20px;
+    z-index: 8;
+    display: flex;
+    justify-content: center;    
+    align-items: center;   
+}
+
+.me_info{
+    width: 400px;
+}
+
+.bill_txt{
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;    
+    align-items: center; 
+}
+
+.line{
+    margin: 0px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;    
+    align-items: center; 
+}
+
+.mid{
+    font-size: 30px;
+    margin-bottom: 50px;
+    height: 30px;
+    display: flex;
+    justify-content: center;    
+    align-items: center; 
+}
+
+.h{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;    
+    align-items: center; 
+}
+
+.inventory_big_mac.mid{
+    margin: 15px;
+}
+
+.client{
+    height: 120px;
+    z-index: 8;
+    position: absolute;
+    bottom: 40px;
+}
+
+.time_block{
+    width: 200px;
+    margin: 0px;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;   
+}
+
+.time_p{
+    margin: 0px;
+    font-size: 40px;
+}
+
+/* 購買浮現的視窗 */
+.window1{
+    position: absolute;
+    bottom: 140px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;  
+    z-index: 6;
+}
+
+.window2{
+    position: absolute;
+    bottom: 140px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;  
+    z-index: 6;
+}
+
+.window3{
+    position: absolute;
+    bottom: 140px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;  
+    z-index: 6;
+}
+
+.window4{
+    position: absolute;
+    bottom: 140px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;  
+    z-index: 6;
+}
+
+.window5{
+    position: absolute;
+    bottom: 140px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;  
+    z-index: 6;
+}
+
+.chat{
+    width: 200px;
+}
+
+.cancel1{
+    color: gray;
+    width: 15px;
+    height: 15px;
+    background-color: antiquewhite;
+    border-radius: 4px;
+    margin: 0px;
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;  
+}
+
+.cancel2{
+    color: gray;
+    width: 15px;
+    height: 15px;
+    background-color: antiquewhite;
+    border-radius: 4px;
+    margin: 0px;
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;  
+}
+
+.cancel3{
+    color: gray;
+    width: 15px;
+    height: 15px;
+    background-color: antiquewhite;
+    border-radius: 4px;
+    margin: 0px;
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;  
+}
+
+.cancel4{
+    color: gray;
+    width: 15px;
+    height: 15px;
+    background-color: antiquewhite;
+    border-radius: 4px;
+    margin: 0px;
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;  
+}
+
+.cancel5{
+    color: gray;
+    width: 15px;
+    height: 15px;
+    background-color: antiquewhite;
+    border-radius: 4px;
+    margin: 0px;
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;  
+}
+
+.buy_burger{
+    width: 50px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.multiply{
+    position: absolute;
+    left: 100px;
+    top: 20px;
+    font-size: 20px;
+}
+
+.number1{
+    margin: 0px;
+    position: absolute;
+    left: 150px;
+    top: 35px;
+    font-size: 30px;
+}
+
+.number2{
+    margin: 0px;
+    position: absolute;
+    left: 150px;
+    top: 35px;
+    font-size: 30px;
+}
+
+.number3{
+    margin: 0px;
+    position: absolute;
+    left: 150px;
+    top: 35px;
+    font-size: 30px;
+}
+
+.number4{
+    margin: 0px;
+    position: absolute;
+    left: 150px;
+    top: 35px;
+    font-size: 30px;
+}
+
+.number5{
+    margin: 0px;
+    position: absolute;
+    left: 150px;
+    top: 35px;
+    font-size: 30px;
+}
+
+.confirm1{
+    background-color: azure;
+    position: absolute;
+    bottom: 70px;
+    left: 65px;
+    border-radius: 2px;
+    border-style: outset;
+}
+
+.confirm2{
+    background-color: azure;
+    position: absolute;
+    bottom: 70px;
+    left: 65px;
+    border-radius: 2px;
+    border-style: outset;
+}
+
+.confirm3{
+    background-color: azure;
+    position: absolute;
+    bottom: 70px;
+    left: 65px;
+    border-radius: 2px;
+    border-style: outset;
+}
+
+.confirm4{
+    background-color: azure;
+    position: absolute;
+    bottom: 70px;
+    left: 65px;
+    border-radius: 2px;
+    border-style: outset;
+}
+
+.confirm5{
+    background-color: azure;
+    position: absolute;
+    bottom: 70px;
+    left: 65px;
+    border-radius: 2px;
+    border-style: outset;
+}
+
+.confirm_txt{
+    font-size: 20px;
+    margin: 10px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+/* 隱藏和顯示 */
+
+#hidden {
+    display: none;
+}
+
+#show {
+    display: show;
+}
+
+#transparent{
+    opacity:0.2;
+}

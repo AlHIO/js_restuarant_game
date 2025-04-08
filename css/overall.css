@@ -1,0 +1,137 @@
+.bill_basis{
+    width: 800px;
+    margin: 10px;
+    background-color:beige;
+    /* 使用flex進行置中 */
+    display: flex;
+    justify-content: center;   
+    position: relative; 
+}
+
+.basis_mid{
+    width: 800px;
+    margin: 0px;
+}
+
+.inner_txt_mid{
+    width: 800px;
+    margin: 0px;
+    /* 使用flex進行置中 */
+    display: flex;
+    justify-content: center;   
+}
+
+.inner_txt{
+    font-size: 50px;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.block{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;    
+}
+
+.material_block_mid{
+    margin: 10px;
+    display: flex;
+    justify-content: center;    
+    align-items: center; 
+}
+
+.material_choice{
+    width: 200px;
+    margin: 10px;
+}
+
+.material{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;    
+    align-items: center; 
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.material_img{
+    width: 150px;
+    height: 158px;
+    margin: 10px;
+}
+
+.number{
+    width: 200px;
+    height: 50px;  
+    margin: 10px;    
+    background-color: white;
+    display: flex;
+    justify-content: center;    
+    align-items: center; 
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; 
+    border-radius: 10px 10px 10px 10px;
+
+    /* 文字 */
+    font-size: 30px;
+}
+
+.make_button_mid{
+    width: 800px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;    
+    align-items: center; 
+}
+
+.button{
+    width: 100px;
+    height: 50px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;    
+    align-items: center; 
+    border-radius: 10px 10px 10px 10px;
+    border-style: outset;
+    /* 製作按鈕動畫 */
+    /* border-style: inset; */
+}
+
+.start{
+    font-size: 20px;
+}
+
+.num{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-style: groove;
+    position: absolute;
+    display: flex;
+    justify-content: center;    
+    align-items: center; 
+    z-index: 1;
+    bottom: 20px;
+    right: 200px;
+}
+
+.num_txt{
+    font-size: 30px;
+}
+
+.plus{
+    position: absolute;
+    width: 50px;
+    bottom: 52px;
+    left: 0px;
+}
+
+.minus{
+    position: absolute;
+    width: 50px;
+    top: 52px;
+    left: 0px;
+}

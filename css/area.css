@@ -1,0 +1,97 @@
+.area_basis{
+    width: 800px;
+    margin: 10px;
+    background-color:beige;  
+    /* 使用flex進行置中 */
+    display: flex;
+    justify-content: center;    
+}
+
+.area_txt_mid{
+    width: 780px;   
+    margin: 10px;
+    /* 使用flex進行置中 */
+    display: flex;
+    justify-content: center;    
+    align-items: center; 
+    border-bottom: 3px solid black;    
+}
+
+.area_txt{
+    font-size: 30px;
+}
+
+.map_mid{
+    width: 780px;   
+    margin: 10px;
+    /* 使用flex進行置中 */
+    display: flex;
+    justify-content: center;    
+    align-items: center;    
+}
+
+.map_list{
+    width: 300px;   
+    position: relative;
+}
+
+.taiwan_map{
+    width: 300px;  
+}
+
+.lettuce_area{
+    width: 100px;
+    position: absolute;
+    left: 181px;
+    top: -5px;
+}
+
+.tomato_area{
+    width: 165px;
+    position: absolute;
+    left: 41px;
+    top: 139px;
+    transition: transform 0.5s ease;
+}
+
+.tomato_area:hover {
+    transform: scale(1.5); 
+    z-index: 2;
+}
+
+.beef_area{
+    width: 122px;
+    position: absolute;
+    left: 86px;
+    top: 45px;
+}
+
+.chicken_area{
+    width: 120px;
+    position: absolute;
+    left: 24px;
+    top: 206px;
+}
+
+/* 返回按紐 */
+.backtoworkplace{
+    display: flex;
+    justify-content: center;    
+    align-items: center; 
+}
+
+.back{
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+    background-color: cornflowerblue;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 8px 10px;
+    border-style: double;
+    display: flex;
+    justify-content: center;    
+    align-items: center; 
+}
+
+.back_txt{
+    font-size: 25px;
+}

@@ -1,0 +1,141 @@
+body{
+    width: 1000px;
+    margin: 0px;
+}
+
+.game_basis{
+    width: 1000px;
+    margin: 0px;
+    /* 使用flex進行置中 */
+    display: flex;
+    justify-content: center;    
+    align-items: center; 
+}
+
+.game_mid{
+    position: relative;
+    background-color: #b0c4de;
+}
+
+.point{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    border-style: ridge;
+    border-radius: 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 4;
+    /* 使用flex進行置中 */
+    display: flex;
+    justify-content: center;    
+    align-items: center; 
+}
+
+.point_txt{
+    font-size: 20px;
+}
+
+.background{
+    width: 1000px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;    
+    /* align-items: center;  */
+}
+
+.tomatotree{
+    height: 800px;
+    margin: 0px;
+    z-index: 1; /* 將z-index設為1 */
+}
+
+.tomato{
+    z-index: 4; /* 將z-index設為2 */
+    width: 1000px;
+    position: relative;
+}
+
+.falling_tomato{
+    height: 80px;
+    position: absolute;
+    top: -50px; 
+    animation: mymove 7s ;
+    z-index: 4;
+}
+
+/* 掉落動畫 */
+@keyframes mymove {
+    from {top: -50px;}
+  to {top: 2000px;}
+}
+
+.ground{
+    width: 1000px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.the_ground{
+    width: 1000px;
+    height: 125px;
+    margin: 0px;
+    background-color: burlywood;
+    position: absolute;
+    top: -15px;
+}
+
+.charecter{
+    height: 120px;
+    margin: 5px;
+    position: absolute;
+    top: -40px;
+    left: 50%; /* 初始位置 */
+    z-index: 3;
+    transition: left 0.05s ease;
+}
+
+.info{
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-size: 50px;
+    z-index: 5;
+    position: absolute;
+    /* 使用flex進行置中 */
+    display: flex;
+    justify-content: center;    
+    align-items: center; 
+}
+
+.info_point{
+    /* 使用flex進行置中 */
+    display: flex;
+    justify-content: center;    
+    align-items: center; 
+}
+
+.info_tomato{
+    /* 使用flex進行置中 */
+    display: flex;
+    justify-content: center;    
+    align-items: center; 
+}
+
+.txt{
+    margin: 10px;
+}
+
+#hidden {
+    display: none;
+}
+
+#show {
+    display: show;
+}
+
+#transparent{
+    opacity:0.2;
+}

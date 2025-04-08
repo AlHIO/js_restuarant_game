@@ -1,0 +1,224 @@
+/* menu的背景調整 */
+.menu{
+    width: 800px;
+    height: 700px;
+    margin: 10px;
+    background-color:beige;
+}
+
+.title_mid{
+    width: 780px;
+    height: 50px;
+    margin: 10px;
+    /* 使用flex進行置中 */
+    display: flex;
+    justify-content: center;    
+    align-items: center; 
+}
+
+.menu_txt{
+    font-size: 50px;
+    margin:auto;
+}
+
+.menu_mid{
+    /* 使用flex進行置中 */
+    display: flex;
+    justify-content: center;    
+    align-items: center; 
+}
+
+/* 個項目的設計 */
+/* ---------------------------------------漢堡--------------------------------------- */
+.hamburber{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color:bisque;
+    /* 使用flex進行置中 */
+    display: flex;
+    justify-content: center;    
+    align-items: center; 
+    border-style: outset;
+}
+
+.hamburber_txt{
+    font-size: 50px;
+}
+
+.hamburber_navbar{
+    width: 200px;
+    /* height: 400px; */
+    background-color: gray;
+    margin:auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 8px 10px;
+    display: flex;
+    justify-content: center;    
+    align-items: center; 
+}
+
+.hamburber_nav_mid{
+    width: 200px;
+    /* height: 400px; */
+    margin: 0px;
+}
+
+/* 對所有漢堡選單內的點擊進行更改 */
+.burgerclick{
+    width: 195px;
+    height: 40px;
+    margin: 0;
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;    
+    align-items: center; 
+    border-style: double;  
+    position: relative; 
+}
+
+/* 對所有漢堡選單內的文字進行更改 */
+.burgertxt{
+    margin: 0;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+/* ---------------------------------------飲料--------------------------------------- */
+
+.drink{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color:bisque;
+    /* 使用flex進行置中 */
+    display: flex;
+    justify-content: center;    
+    align-items: center; 
+    border-style: outset;
+}
+
+.drink_txt{
+    font-size: 50px;
+}
+
+.drink_navbar{
+    width: 200px;
+    /* height: 400px; */
+    background-color: gray;
+    margin:auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 8px 10px;
+    display: flex;
+    justify-content: center;    
+    align-items: center; 
+}
+
+.drink_nav_mid{
+    width: 200px;
+    /* height: 400px; */
+    margin: 0px;
+}
+
+/* 對所有漢堡選單內的點擊進行更改 */
+.drinkclick{
+    width: 195px;
+    height: 40px;
+    margin: 0;
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;    
+    align-items: center; 
+    border-style: double; 
+    position: relative;  
+}
+
+/* 對所有漢堡選單內的文字進行更改 */
+.drinktxt{
+    margin: 0;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+/* ---------------------------------------甜點--------------------------------------- */
+.dessert{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color:bisque;
+    /* 使用flex進行置中 */
+    display: flex;
+    justify-content: center;    
+    align-items: center; 
+    border-style: outset;
+}
+
+.dessert_txt{
+    font-size: 50px;
+}
+
+.dessert_navbar{
+    width: 200px;
+    /* height: 400px; */
+    background-color: gray;
+    margin:auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 8px 10px;
+    display: flex;
+    justify-content: center;    
+    align-items: center; 
+}
+
+.dessert_nav_mid{
+    width: 200px;
+    /* height: 400px; */
+    margin: 0px;
+}
+
+/* 對所有漢堡選單內的點擊進行更改 */
+.dessertclick{
+    width: 195px;
+    height: 40px;
+    margin: 0;
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;    
+    align-items: center; 
+    border-style: double;
+    position: relative;  
+}
+
+/* 對所有漢堡選單內的文字進行更改 */
+.desserttxt{
+    margin: 0;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+/* 返回按紐 */
+.backtoworkplace{
+    display: flex;
+    justify-content: center;    
+    align-items: center; 
+}
+
+.back{
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+    background-color: cornflowerblue;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 8px 10px;
+    border-style: double;
+    display: flex;
+    justify-content: center;    
+    align-items: center; 
+}
+
+.back_txt{
+    font-size: 25px;
+}
+
+

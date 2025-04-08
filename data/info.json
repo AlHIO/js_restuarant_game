@@ -1,0 +1,25 @@
+{
+  "info": [
+    {
+      "id": "player1",
+      "money": 150,
+      "customer": 0
+    }
+  ],
+  "merchendise": [
+    {
+      "id": "player1",
+      "big_mac": 0,
+      "Mc_ch": 5
+    }
+  ],
+  "material": [
+    {
+      "id": "player1",
+      "lettuce": 10000,
+      "tomato": 0,
+      "beef": 10000,
+      "chicken": 20
+    }
+  ]
+}
